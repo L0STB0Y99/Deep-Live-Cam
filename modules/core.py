@@ -11,9 +11,9 @@ import platform
 import signal
 import shutil
 import argparse
-import torch
-import onnxruntime
-import tensorflow
+import torch # type: ignore
+import onnxruntime # type: ignore
+import tensorflow # type: ignore
 
 import modules.globals
 import modules.metadata
